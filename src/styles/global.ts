@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import backgroundImage from '../assets/background.svg';
 
 export default createGlobalStyle`
   * {
@@ -9,7 +10,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #f0f0f5;
+    background: #f0f0f5 url(${backgroundImage}) no-repeat 70% top;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -19,7 +20,11 @@ export default createGlobalStyle`
 
   #root {
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto;
     padding: 40px 20px;
+  }
+
+  button {
+    cursor: pointer;
   }
 `;
