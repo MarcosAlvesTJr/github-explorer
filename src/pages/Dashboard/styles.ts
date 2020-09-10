@@ -72,7 +72,8 @@ export const Repository = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
@@ -90,4 +91,10 @@ export const Repository = styled.div`
       color: #c9c9d4;
     }
   }
+`;
+
+export const Error = styled.span`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
 `;
