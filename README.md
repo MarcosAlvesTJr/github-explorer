@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> Aplicação simples que consome a API do GutHub para mostrar repositórios e detalhes do mesmo, como issues, stars e forks.
+> Aplicação simples que consome a API do GitHub para mostrar repositórios e detalhes do mesmo, como issues, stars e forks.
 
 ### ✨ [Demo](https://git-exp.netlify.app/)
 
